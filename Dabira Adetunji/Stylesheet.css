@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: inter;
+  color: black;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+}
+
+/*The Banner style starts here*/
+.Container {
+  width: 1440px;
+  height: 488px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.Padding {
+  padding: 96px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Content {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.Banner-text{
+    margin-left: 50px;
+}
+.Content span {
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f56d9;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.Content h1 {
+  font-size: 48px;
+  line-height: 60px;
+  color: #101828;
+  font-kerning: -2%;
+  font-kerning: -15%;
+  margin-top: -0.1px;
+  margin-bottom: 0.1px;
+}
+
+.Content p {
+  font-size: 20px;
+  line-height: 25px;
+  color: #667085;
+  margin-bottom: 40px;
+}
+
+.Srch-box{
+    margin-left: 100px;
+    
+}
+
+.Srch-box input{
+width: 360px;
+height: 48px;
+border: 1px #D0D5DD solid;
+border-radius: 8px;
+padding: 0px 15px;
+margin-left: -50px;
+}
+
+::-webkit-input-placeholder{
+    font-size: 16px;
+    color: #667085;
+    font-weight: 10%;
+}
+
+.Srch-box button{
+    text-decoration: none;
+    background-color: #7f56d9;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    width: 118px;
+    height: 48px;
+    margin-left: 10px;
+}
+
+.Para1{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-left: 74px;
+}
+
+
+.Para1 a{
+     margin: 12px 0px 0px 6px; 
+    color: #667085;
+    
+}
+
+.Para1 p{
+    margin-top: 12px;
+}
+
+/*The Web page style starts here*/
+
+
+
