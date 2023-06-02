@@ -1,64 +1,72 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: inter;
+  font-family: sans-serif;
   color: black;
   text-decoration: none;
-  width: auto;
+  max-width: 100%;
   height: auto;
 }
 
 /*The Banner style starts here*/
 .Container {
+  max-width: 100%;
+  height: 1318px;
+}
+.Padding{
+  padding: 20px 50px;
+}
+
+.Sect1{
   width: 1440px;
   height: 488px;
   display: flex;
   justify-content: center;
   justify-items: center;
+  
 }
 
-.Padding {
+.Sect1-padding {
   padding: 96px 400px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Content {
-  margin-top: 12px;
+
+
+.Sect1-content {
+  margin-top: 2px;
   text-align: center;
 }
 
-.Banner-text{
-    margin-left: 50px;
-}
-.Content span {
-  font-size: 16px;
+
+.Sect1-content span {
+  font-size: 20px;
   line-height: 24px;
   color: #7f56d9;
   font-weight: 700;
   margin-bottom: 14px;
 }
 
-.Content h1 {
-  font-size: 48px;
+.Sect1-content h1 {
+  font-size: 52px;
   line-height: 60px;
   color: #101828;
   font-kerning: -2%;
   font-kerning: -15%;
   margin-top: -0.1px;
-  margin-bottom: 0.1px;
+  margin-bottom: -10px;
 }
 
-.Content p {
-  font-size: 20px;
-  line-height: 25px;
+.Sect1-content p {
+  font-size: 24px;
+  line-height: 38px;
   color: #667085;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 }
 
 .Srch-box{
-    margin-left: 100px;
-    
+    margin-left:45px;
 }
 
 .Srch-box input{
@@ -67,7 +75,7 @@ height: 48px;
 border: 1px #D0D5DD solid;
 border-radius: 8px;
 padding: 0px 15px;
-margin-left: -50px;
+margin-left: -55px;
 }
 
 ::-webkit-input-placeholder{
@@ -92,13 +100,14 @@ margin-left: -50px;
     display: flex;
     flex-direction: row;
     font-size: 20px;
-    margin-left: 74px;
+    margin-left: 110px;
 }
 
 
 .Para1 a{
-     margin: 12px 0px 0px 6px; 
+     margin: 16px 0px 0px 9px; 
     color: #667085;
+    font-size: 23px;
     
 }
 
@@ -106,7 +115,127 @@ margin-left: -50px;
     margin-top: 12px;
 }
 
+
 /*The Web page style starts here*/
+.Section2{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 0px 230px 80px;
+  float: left;
+}
+
+.Cards-1{
+  float: left;
+  width: 100%;
+}
+
+.Right-card-content{
+  width: 50%;
+  float: left;
+  margin-left: -150px;
+}
 
 
+.Left-card-content{
+  width: 50%;
+  float: left;
+}
 
+.Right-card-1,
+.Right-card-2{
+  height: 250px;
+   margin-bottom: 100px;
+}
+
+.Right-card img{
+  height: 300px;
+  width: auto;
+}
+
+.Right-card-1-content1,
+.Right-card-1-content2{
+  position: relative;
+  left: 510px;
+  bottom: 300px;
+}
+
+.Section2 h2{
+  font-size:28px ;
+  line-height:36px ;
+  color: #101828;
+  font-weight: bold;
+
+}
+.Sect2-heading{
+  margin-bottom:40px;
+}
+
+.Section2 h3{
+  font-size: 22px;
+  line-height:32px ;
+  color: #101828;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.Section2 span{
+  font-size: 18px;
+  line-height: 24px;
+  color: #7f56d9;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.Left-card img{
+  margin-bottom: 32px;
+}
+
+.Section2 p{
+  font-size: 22px;
+  line-height: 33px;
+  color: #667085;
+  margin-bottom: 60px;
+}
+
+.Section2 a{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 16px;
+  background-color: aliceblue;
+  padding: 7px 15px;
+}
+
+#anchor-3,
+#anchor-5,
+#anchor-7{
+  color: #C11574;
+  background-color: #FDF2FA;
+ 
+}
+
+#anchr-1{
+  color: #6941c6;
+  background-color: #F9F5FF;
+}
+
+
+#anchr-2{
+  color: #3538CD;
+  background-color: #EEF4FF;
+}
+
+
+#anchr-4{
+  color: #FDF9FF;
+  background-color: #026AA2;
+}
+
+
+#anchr-6{
+  color: #ECFDF3;
+  background-color: #027A48;
+}
