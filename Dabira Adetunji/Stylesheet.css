@@ -116,7 +116,7 @@ margin-left: -55px;
 }
 
 
-/*The Web page style starts here*/
+/*Section 2 style starts here*/
 .Section2{
   width: 100%;
   height: auto;
@@ -133,7 +133,7 @@ margin-left: -55px;
 .Right-card-content{
   width: 50%;
   float: left;
-  margin-left: -150px;
+  margin-left: -200px;
 }
 
 
@@ -239,3 +239,108 @@ margin-left: -55px;
   color: #ECFDF3;
   background-color: #027A48;
 }
+
+/* Section 3 style starts here */
+.Cards-2{
+  padding: 1000px 230px 80px;
+  max-width: 100%;
+}
+.Grids img{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.Card-2 h1{
+  font-size:28px ;
+  line-height:36px ;
+  color: #101828;
+  font-weight: bold;
+}
+
+.Card-2 h2{
+  font-size:28px ;
+  line-height:36px ;
+  color: #101828;
+  font-weight: bold;
+  margin-bottom: 40px;
+
+}
+
+.Grids{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  flex-wrap: warp;
+}
+ 
+.Grids span{
+  font-size: 20px;
+  line-height: 24px;
+  color: #7f56d9;
+  font-weight: 700;
+  margin-bottom: 50px;
+  
+}
+
+.Grids h2{
+  font-size:28px ;
+  line-height:36px ;
+  color: #101828;
+  font-weight: bold;
+  
+}
+
+.Grids p{
+  font-size: 22px;
+  line-height: 33px;
+  color: #667085;
+  margin-bottom: 45px;
+}
+
+.Grids a{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0px 8px px 0px;
+  border: none;
+  border-radius: 16px;
+  background-color: aliceblue;
+  padding: 7px 15px;
+}
+
+#tag-1, #tag-6, 
+#tag-8,#tag-4,
+ #tag-13{
+color: #6941c6;
+background-color:#F9F5FF;
+} 
+
+#tag-2,
+ #tag-14{
+color: #3538CD;
+background-color:#EEF4FF;
+} 
+
+#tag-1{
+color: #026AA2;
+background-color:#F0F9FF;
+} 
+
+#tag-5, #tag-11, 
+#tag-12{
+color: #C4320A;
+background: color #FFF6ED;
+} 
+
+#tag-10{
+color: #027A48;
+background: color #ECFDF3;
+} 
+
+#tag-1, #tag-6, 
+#tag-8, #tag-13{
+color: #6941c6;
+background-color:#F9F5FF;
+} 
+
+
